@@ -1,0 +1,12 @@
+.container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .container {
+    height: 1000px;
+    overflow-y: auto;
+    
+    /* hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
